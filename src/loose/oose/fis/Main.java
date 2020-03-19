@@ -1,11 +1,13 @@
 package loose.oose.fis;
 
-import java.util.ArrayList;
-
+import loose.oose.fis.documents.Document;
+import loose.oose.fis.documents.JSON;
 import loose.oose.fis.documents.XML;
 import loose.oose.fis.processors.Procesor;
 import loose.oose.fis.processors.ProcesorCautare;
 import loose.oose.fis.processors.ProcesorCompus;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -42,5 +44,7 @@ public class Main {
 
         sc.doSomething();
 
+
+        AnotherClass ac = new AnotherClass();
     }
 }
